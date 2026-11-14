@@ -1,30 +1,38 @@
 SPACE JUNK: THE GREAT SPACE MESS!  (7-minute episode)
 =====================================================
+NASA Space Apps Challenge - "Abandoned but not Forgotten"
 
-PLAY IT
-  1. Open this folder in VS Code.
-  2. Right-click space_junk_episode.html > "Open with Live Server"
-     (or just double-click the file to open it in Chrome / Edge).
-  3. Press PLAY (or the Space bar).  F = full screen, R = restart.
+WATCH IT ONLINE
+  https://thegirlwhocoded.github.io/nokhotro/
 
-BEST VOICES
-  Click  🎙 Voices  to hear and choose a voice for each character (★ = natural voice).
-  Your choice is remembered on that computer.
-  Microsoft Edge has the most natural built-in voices.
-  For natural voices on any computer, run this once (needs internet):
-      pip install edge-tts
-      python make_voices.py
-  That puts recorded voices inside the HTML file.
+  🎧 For the best audio experience, please watch in Microsoft Edge.
+     (Other browsers use their own robotic voices.)
+
+  Press PLAY (or the Space bar).  F = full screen, R = restart.
+
+PLAY IT ON YOUR COMPUTER
+  1. Download index.html.
+  2. Open it in Microsoft Edge (or open the folder in VS Code,
+     right-click index.html > "Open with Live Server").
+  3. Press PLAY.
+
+VOICES
+  Click  🎙 Voices  to hear and choose a voice for each character
+  (★ = natural voice). Your choice is remembered on that computer.
+  To build the voices into the file so they sound the same in every
+  browser, run this once (needs internet):
+      pip3 install edge-tts
+      python3 make_voices.py
 
 GET A VIDEO FILE
-  Click "Play & record video". When the episode ends, a .webm video downloads.
-  It captures the picture, subtitles, music and sound effects. It also captures
-  voices, but only after you have run make_voices.py.
-  (Or use any screen recorder, e.g. Win + Alt + R on Windows.)
+  Click "Play & record video". When the episode ends, a .webm video
+  downloads with the picture, subtitles, music and sound effects.
+  Voices are included only after running make_voices.py.
 
 EDIT LINES
-  In space_junk_episode.html, scroll to "EDIT HERE" and change the text.
+  In index.html, scroll to "EDIT HERE" and change the text.
   If you used make_voices.py, run it again after editing.
 
 TESTING
-  Add ?scene=5 to the address bar to jump to a scene, or ?speed=4 to fast-forward.
+  Add ?scene=5 to the end of the link to jump to a scene,
+  or ?speed=4 to fast-forward.
